@@ -1,3 +1,24 @@
+.hero-section {
+  background-image: url('path/to/your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Adjust the height as needed */
+  color: black; /* Text color on top of the background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+/* Style for the hero heading */
+.hero-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Style for the hero subheading or description */
+.hero-subheading {
+  font-size: 1.5rem;
+}
 
 /*# sourceMappingURL=custom.css.map */
