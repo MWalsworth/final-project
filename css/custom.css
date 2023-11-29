@@ -1,24 +1,263 @@
-.hero-section {
-  background-image: url('path/to/your-image.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 400px; /* Adjust the height as needed */
-  color: black; /* Text color on top of the background image */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
 }
 
-/* Style for the hero heading */
-.hero-heading {
-  font-size: 3rem;
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+/* Featured Items Section Styles */
+.featured-items {
+  background-color: #eaeaea;
+  padding: 20px;
+}
+
+/* Our Story Section Styles */
+.our-story {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Not Just for Baby Section Styles */
+.not-just-for-baby {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+/* Quality Checks Section Styles */
+.quality-checks {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Footer Columns Styles */
+footer .col {
   margin-bottom: 20px;
 }
 
-/* Style for the hero subheading or description */
-.hero-subheading {
-  font-size: 1.5rem;
+/* Footer Links Styles */
+footer ul {
+  list-style: none;
+  padding: 0;
 }
 
-/*# sourceMappingURL=custom.css.map */
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Section Styles */
+.contact-form {
+  padding: 20px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+/* Store Locations and Store Hours Section Styles */
+.store-locations,
+.store-hours {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.store-locations h2,
+.store-hours h2 {
+  margin-bottom: 20px;
+}
+
+/* Ask, I have answers! Section Styles */
+.ask-answers {
+  padding: 20px;
+}
+
+.ask-answers h2 {
+  margin-bottom: 20px;
+}
+
+.product-description {
+  background-image: url('path/to/product-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.product-description h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-description p {
+  font-size: 1.2rem;
+}
+
+.product-description .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-description .overlay-text p {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Featured Items Section Styles */
+.featured-items {
+  padding: 20px;
+}
+
+.featured-items h2 {
+  margin-bottom: 20px;
+}
+
+.shop-all-button {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Individual Product Cards Section Styles */
+.product-card {
+  padding: 20px;
+}
+
+.product-card .card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.product-card .card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product-card .card-body {
+  padding: 20px;
+}
+
+.product-card .card-body h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-card .card-body p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.product-card .card-body button {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Special Card: "Have you Heard" Section Styles */
+.special-card {
+  padding: 20px;
+}
+
+.special-card .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.special-card .card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.special-card .card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.special-card .card button {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Load More Button Section Styles */
+.load-more {
+  text-align: center;
+  padding: 20px;
+}
+
+.load-more-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover Card Section Styles */
+.hover-card {
+  padding: 20px;
+}
+
+.hover-card .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.hover-card .card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.hover-card .card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.hover-card .card input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+}
