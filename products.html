@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
   <a href="../index.html" aria-label="return to home page"><img class="logo" src="../images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
 </head>
 <body>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -35,13 +37,25 @@
   <section class="featured-items">
     <div class="container">
       <h2>Featured Items</h2>
+      <div class="row">
       <!-- Product Cards/Content Here -->
-      <!-- Example:
-      <div class="product-card">
-        <h3>Orange Raspberry</h3>
-        ... (Other product details)
-      </div>
-      -->
+        <div class="card col">
+          <img src="images/apple.jpg" class="card-img-top" alt="...">
+          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Apple Juice product page">Apple</a>
+        </div>
+        <div class="card col">
+          <img src="images/citrus-punch.jpg" class="card-img-top" alt="...">
+          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Citrus Punch Juice product page">Citrus Punch</a>
+        </div>
+        <div class="card col">
+          <img src="images/cran-apple.jpg" class="card-img-top" alt="...">
+          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Cran Apple Juice product page">Cran Apple</a>
+        </div>
+        <div class="card col">
+          <img src="images/fruit-punch.jpg" class="card-img-top" alt="...">
+          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Fruit Punch Juice product page">Fruit Punch</a>
+        </div>
+      </div>  
       <button class="shop-all-button">Shop all Products</button>
     </div>
   </section>
@@ -61,7 +75,7 @@
         <div class="card-body">
           <h3>Apple Juice</h3>
           <p>$29.99</p>
-          <p>Additional product details...</p>
+          <span class="material-symbols-outlined">add_shopping_cart</span>
           <button class="learn-more-button">Learn More</button>
         </div>
       </div>

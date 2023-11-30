@@ -11855,5 +11855,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.featured-items .btn-light {
+  border-radius: 33px;
+  padding: 1px 36px;
+}
 
 /*# sourceMappingURL=custom.css.map */

@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
 </head>
 <body>
   
@@ -27,8 +29,8 @@
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" href="#">Products</a>
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="products.html">Products</a>
+                  <a class="nav-link" href="contact-us.html">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -43,10 +45,20 @@
       <a href="index.html" aria-label="return to home page"><img class="logo" src="Images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
     </div>
     <div class="col">
-      Search Bar
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     </div>
     <div class="col">
-      icons
+      <span class="material-symbols-outlined">shopping_cart_checkout</span>
+        <p>|</p>
+        <span class="material-symbols-outlined">favorite</span>
+        <span class="material-symbols-outlined">person</span>
     </div>
   </section>
 
@@ -56,19 +68,36 @@
     <section class="featured-items">
       <div class="container">
         <h2>Featured Items</h2>
+        <div class="row">
         <!-- Product Cards/Content Here -->
-        <!-- Example:
-        <div class="product-card">
-          <h3>Orange Raspberry</h3>
-          ... (Other product details)
+          <div class="card col">
+            <img src="images/apple.jpg" class="card-img-top" alt="...">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Apple</a>
+          </div>
+          <div class="card col">
+            <img src="images/citrus-punch.jpg" class="card-img-top" alt="...">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Citrus Punch</a>
+          </div>
+          <div class="card col">
+            <img src="images/cran-apple.jpg" class="card-img-top" alt="...">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Cran Apple</a>
+          </div>
+          <div class="card col">
+            <img src="images/fruit-punch.jpg" class="card-img-top" alt="...">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Fruit Punch</a>
+          </div>
         </div>
-        -->
-        <a href="./pages/products.html"><button>Shop all products</button></a>
+        <div>
+          <button>Shop All Products</button>
+        </div>  
       </div>
     </section>
-
-    <!-- Our Story Section -->
+    
+    <!-- About Us Section -->
     <section class="our-story">
+      <div>
+        <img src="images/girl-with-oranges-for-eyes.jpg">
+      </div>
       <div class="container">
         <h2>Our Story</h2>
         <p>Penny Juice, founded in the heart of family values, began its journey two decades ago with a vision to deliver premium, affordable juices. Starting from humble roots, our commitment to quality and affordability has remained unwavering. Through dedication and innovation, we've proudly provided nutritious blends, tailored for all ages, ensuring families enjoy the taste of health.</p>
@@ -79,10 +108,15 @@
     <section class="not-just-for-baby">
       <div class="container">
         <h2>Not Just for Baby</h2>
-        <!-- Live Chat Content -->
-        <h3>Live Chat Assistance</h3>
-        <p>Penny is here to answer your questions 24/7</p>
-        <button>Chat now</button>
+        
+      <div><div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Live Chat Assistance</h5>
+          <p class="card-text">Penny is here to answer your questions 24/7<</p>
+          <a href="#" class="btn btn-primary">Chat Now</a>
+        </div>
+      </div>
 
         <!-- Parent Talk Content -->
         <h3>Parent Talk</h3>
