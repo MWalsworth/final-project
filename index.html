@@ -6,27 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Penny Juice</title>
   <link rel="stylesheet" href="css/custom.css">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
- 
-  <a href="index.html" aria-label="return to home page"><img class="logo" src="Images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
 </head>
 <body>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h1>Penny Juice</h1>
-          <p>It makes cents</p>
-          <p>Free shipping for orders over $50</p>
-        </div>
-      </div>
+  
+  <div class="row">
+    <div class="col">
+      Penny Juice
     </div>
-  </header>
+    <div class="col">
+      It makes cents
+    </div>
+    <div class="col">
+      <header>
+        <section class="header-banner">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#">Products</a>
+                  <a class="nav-link" href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </header>
+    </div>
+  </div>
+
+  <section class="row">
+    <div class="col">
+      <a href="index.html" aria-label="return to home page"><img class="logo" src="Images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
+    </div>
+    <div class="col">
+      Search Bar
+    </div>
+    <div class="col">
+      icons
+    </div>
+  </section>
 
   <!-- Main Content Section -->
   <main>
@@ -41,7 +63,7 @@
           ... (Other product details)
         </div>
         -->
-        <button>Shop all products</button>
+        <a href="./pages/products.html"><button>Shop all products</button></a>
       </div>
     </section>
 
@@ -49,7 +71,7 @@
     <section class="our-story">
       <div class="container">
         <h2>Our Story</h2>
-        <p>A small paragraph about the history of Penny Juice and its affordability. <a href="about.html">Read more</a></p>
+        <p>Penny Juice, founded in the heart of family values, began its journey two decades ago with a vision to deliver premium, affordable juices. Starting from humble roots, our commitment to quality and affordability has remained unwavering. Through dedication and innovation, we've proudly provided nutritious blends, tailored for all ages, ensuring families enjoy the taste of health.</p>
       </div>
     </section>
 
@@ -136,8 +158,6 @@
   </footer>
 
   <!-- Bootstrap JS and other scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
