@@ -15,6 +15,7 @@ $font-family-base: 'Merriweather', serif;
   max-width: 250px;
   max-height: 150px; 
 }
+
 .featured-items .btn-light {
   border-radius: 33px;
   padding: 1px 10px;
@@ -120,4 +121,82 @@ $font-family-base: 'Merriweather', serif;
   height: 175px;
   object-position: top;
 
+}
+
+@media screen and (max-width: 576px) {
+
+.PJ-name h1,
+.PJ-name h4 {
+  display: inline-block; /* Keep elements on the same line */
+}
+
+
+.header-banner {
+  text-align: center;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-items .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.featured-items .row .card {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.featured-items .row .btn {
+  width: 100%;
+}
+
+.shop-all-button button {
+  width: 100%;
+}
+
+.our-story {
+  padding: 20px 0;
+}
+
+.know-best .card {
+  margin-bottom: 20px;
+}
+
+.our-story .row {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orange-4eyes,
+.col {
+  width: 100%;
+  flex: unset;
+}
+
+.orange-4eyes img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  order: -1;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer img {
+  width: 30px;
+  margin: 5px;
+}
+}
+
+
+@media screen and (min-width: 992px) {
+  
 }
