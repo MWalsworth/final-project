@@ -1,17 +1,123 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+$primary: #C49A6C;
+
+$headings-font-family: 'Lilita One', sans-serif;
+$font-family-base: 'Merriweather', serif;
+
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here*
-
+.logo {
+  max-width: 250px;
+  max-height: 150px; 
+}
 .featured-items .btn-light {
   border-radius: 33px;
-  padding: 1px 36px;
+  padding: 1px 10px;
+  width: calc(100% - 60px);
 }
 .our-story .container {
   padding: 0rem;
   margin: 5rem;
+}
+.know-best .container {
+  padding: 0rem;
+  margin: 5rem;
+}
+
+.featured-items {
+  background-color: $primary;
+}
+.featured-items .row {
+  gap: 20px;
+  --bs-gutter-x:0;
+  flex-wrap: nowrap;
+}
+
+.featured-items .card {
+  padding: 0;
+  flex: auto;
+}
+
+.header {
+  background-color: $primary;
+  font-family: 'Lilita One', sans-serif;
+  color: white;
+}
+.header .container {
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .col:last-child {
+  width: fit-content;
+  flex: unset;
+}
+.header .container .col:last-child .nav-link {
+  color: white;
+}
+.header-icons-container {
+  width: fit-content;
+  align-items: center;
+  height: 55px;
+}
+.header-icons-container .divider {
+  padding: 0;
+}
+
+.not-just-for-baby {
+  // background-image: url(../images/cheers-with-juice.jpg);
+  background-color: #C49A6C;
+}
+.footer {
+  background-color: $primary;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer a,
+.footer a:visited {
+  color:black;
+  text-decoration: none;
+}
+
+.know-best-pic {
+  border-radius: 16px;
+  height: 175px;
+  object-position: top;
+}
+.product-card {
+  border-radius: 18px;
+}
+.card-body .shopping-icon {
+  font-size: 36px;
+}
+.icon-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.products .row {
+  gap: 20px;
+}
+
+.products + .products {
+  margin-top: 20px;
+}
+.nutrionist-pic {
+  border-radius: 16px;
+  height: 175px;
+  object-position: top;
+
 }

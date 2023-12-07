@@ -16,47 +16,38 @@
 </head>
 <body>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-   <!-- Product Description Section -->
    <section class="product-description">
-    <div class="container">
-      <p>100% Blended Fruit Juice Concentrate</p>
-      <p>Specifically designed for childcare centres</p>
-      <!-- Picture with overlay text and Order now button -->
-      <!-- Example:
-      <div class="product-image">
-        <img src="path/to/image.jpg" alt="Product Image">
-        <div class="overlay-text">
-          <p>Order now</p>
-        </div>
+    <div class="product-image">
+        <img src="images/100-blended.jpg" alt="image stating 100 blended fruit juice">
       </div>
-      -->
     </div>
   </section>
 
   <!-- Featured Items Section -->
-  <section class="featured-items">
+  <section class="featured-items text-center">
     <div class="container">
-      <h2>Featured Items</h2>
+      <h2 class="featured my-1 py-2">Featured Items</h2>
       <div class="row">
-      <!-- Product Cards/Content Here -->
-        <div class="card col">
+        <div class="card col relative">
           <img src="images/apple.jpg" class="card-img-top" alt="...">
-          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Apple Juice product page">Apple</a>
+          <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Apple</a>
         </div>
-        <div class="card col">
+        <div class="card col relative">
           <img src="images/citrus-punch.jpg" class="card-img-top" alt="...">
-          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Citrus Punch Juice product page">Citrus Punch</a>
+          <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Citrus Punch</a>
         </div>
-        <div class="card col">
+        <div class="card col relative">
           <img src="images/cran-apple.jpg" class="card-img-top" alt="...">
-          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Cran Apple Juice product page">Cran Apple</a>
+          <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Cran Apple</a>
         </div>
-        <div class="card col">
+        <div class="card col relative">
           <img src="images/fruit-punch.jpg" class="card-img-top" alt="...">
-          <a href="#" class="position-absolute top-50 start-50 translate-middle" aria-label="link to Fruit Punch Juice product page">Fruit Punch</a>
+          <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Fruit Punch</a>
         </div>
+      </div>
+      <div class="shop-all-button mb-3 py-3">
+        <button class="text-center"> Shop All Products</button>
       </div>  
-      <button class="shop-all-button">Shop all Products</button>
     </div>
   </section>
 
@@ -67,55 +58,263 @@
     </div>
   </section>
 
-  <!-- Individual Product Cards Section -->
-  <section class="product-card">
-    <div class="container">
-      <div class="card">
-        <img src="../images/apple.jpg" alt="Apple-Juice">
-        <div class="card-body">
-          <h3>Apple Juice</h3>
-          <p>$29.99</p>
-          <span class="material-symbols-outlined">add_shopping_cart</span>
-          <button class="learn-more-button">Learn More</button>
+  <!-- Section 1-->
+  <section class="products container">
+    <div class="row">
+      <div class="card col">
+        <img src="images/apple.jpg" alt="Apple Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Apple</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
         </div>
+      </div>  
+      <div class="card col">
+        <img src="images/watermelon.jpg" alt="Green Watermelon Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Green Watermelon</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div> 
+      <div class="card col">
+        <img src="images/white-grape.jpg" alt="White grape Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>White Grape</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div> 
+      <div class="card col">
+        <img src="images/very-berry.jpg" alt="Verry berry juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Verry Berry</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div> 
+  </section>
+
+  <!-- Section 2-->
+  <section class="products container">
+    <div class="row">
+      <div class="card col">
+        <img src="images/staw-ban.jpg" alt="Strawberry Banana Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Strawberry Banana</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div>  
+      <div class="card col">
+        <img src="images/peach-mango.jpg" alt="peach-mango Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Peach Mango</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>  
+      </div> 
+      <div class="card col">
+        <img src="images/orange-pineapple.jpg" alt="Orange Pineapple Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Orange Pineapple</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div>
+      <div class="card col">
+        <img src="images/straw-kiwi.jpg" alt="Strawberry Kiwi juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Strawberry Kiwi</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>  
       </div>
     </div>
   </section>
 
-  <!-- Special Card: "Have you Heard" -->
-  <section class="special-card">
-    <div class="container">
-      <div class="card">
-        <div class="card-body">
-          <h3>Have you Heard</h3>
-          <p>Nutrient Juice</p>
-          <p>By Dr. Martina MD BsN</p>
-          <button class="read-more-button">Read More</button>
+
+  <!-- Section 3 -->
+  <section class="products container">
+    <div class="row">   
+      <div class="col-8">
+        <div class="special-card">
+          <div class="card-body">
+            <div>
+              <h3>Have you Heard</h3>
+              <p>Nutrient Juice</p>
+              <p>By Dr. Martina MD BsN</p>
+            </div>
+            <div class="card-img-top nutrionist-pic">
+              <img src="images/Nutritionist.jpg" alt="display">
+            </div>  
+            <button class="read-more-button">Read More</button>
+          </div>
         </div>
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <div class="col">  
+            <h6>Green Watermelons</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div> 
+      <div class="col-4">
+        <div class="card">
+          <div class="col">  
+            <h6>Green Watermelons</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div>  
+    </div>    
+  </section>
+
+  <section class="products container">
+    <div class="row">   
+      <div class="special-card" style="width: 100rem;">
+        <div class="container">
+          <div class="card col-8">
+            <div class="card-body">
+              <div>
+                <h3>Have you Heard</h3>
+                <p>Nutrient Juice</p>
+                <p>By Dr. Martina MD BsN</p>
+              </div>
+              <div class="card-img-top nutrionist-pic">
+                <img src="images/Nutritionist.jpg" alt="display">
+              </div>  
+              <button class="read-more-button">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card col-4">
+        <img src="images/watermelon.jpg" alt="Green Watermelon Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Green Watermelons</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>  
+      </div>
+      <div class="card col-4">
+        <img src="images/peach-mango.jpg" alt="Peach Mango juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Peach Mango</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>  
+      </div>  
+    </div>    
+</section>
+
+  <!-- Section 2-->
+  <section class="products container">
+    <div class="row">
+      <div class="card col">
+        <img src="images/cran-apple.jpg" alt="Cran Apple Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Cran Apple</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div>  
+      <div class="card col">
+        <img src="images/peach-mango.jpg" alt="peach-mango Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Peach Mango</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>  
+      </div> 
+      <div class="card col">
+        <img src="images/orange-pineapple.jpg" alt="Orange Pineapple Juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Orange Pineapple</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>
+      </div>
+      <div class="card col">
+        <img src="images/citrus-punch.jpg" alt="Citrus Punch juice">
+        <div class="card-body row">
+          <div class="col">  
+            <h6>Citrus Punch</h6>
+            <p>$29.99</p>
+          </div>
+          <div class="col icon-wrapper">
+            <span class="material-symbols-outlined shopping-icon">add_shopping_cart</span>
+          </div>
+        </div>  
       </div>
     </div>
   </section>
 
-  <!-- Load More Button Section -->
-  <section class="load-more">
-    <div class="container">
-      <button class="load-more-button">Load More</button>
-    </div>
-  </section>
+<!-- Load More Button Section -->
+<section class="load-more">
+  <div class="container">
+    <button class="load-more-button">Load More</button>
+  </div>
+</section>
 
-  <!-- Hover Card Section -->
-  <section class="hover-card">
-    <div class="container">
-      <div class="card">
-        <div class="card-body">
-          <h3>You're looking at...</h3>
-          <p>Strawberry Banana</p>
-          <p>Delightful fusion of sun-ripened strawberries and creamy bananas, crafting a nutritious, kid-friendly beverage perfect for health-conscious parents seeking flavorful choices for their children</p>
-          <button class="more-info-button">More Info</button>
-          <input type="number" placeholder="Quantity">
-        </div>
-      </div>
-    </div>
-  </section>
 </body>
 </html>

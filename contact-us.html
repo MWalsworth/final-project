@@ -4,18 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>Penny Juice</title>
   <link rel="stylesheet" href="css/custom.css">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
-  <a href="../index.html" aria-label="return to home page"><img class="logo" src="../images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
 </head>
 <body>
+
+
+  <div class="header">
+    <div class="container row">
+      <div class="col PJ-name">
+        <h1>Penny Juice</h1>
+      </div>
+      <div class="col">
+        <h4>It makes cents</h4>
+      </div>
+      <div class="col">
+        <header>
+          <section class="header-banner">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link" href="products.html">Products</a>
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </section>
+        </header>
+      </div>
+    </div>
+  </div>
+
+  <section class="row">
+    <div class="col">
+      <a href="index.html" aria-label="return to home page"><img class="logo" src="Images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
+    </div>
+    <div class="col">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="col">
+      <div class="row header-icons-container">
+        <div class="col">
+          <span class="material-symbols-outlined">shopping_cart_checkout</span>
+        </div>
+        <div class="col divider">
+          <p class="mb-0">|</p>
+        </div>
+        <div class="col">
+          <span class="material-symbols-outlined">favorite</span>
+        </div>
+        <div class="col">
+            <span class="material-symbols-outlined">person</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <img src="images/group-children-drinking-orange-juice.jpg">
+
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <body>
-
+    <main>
+      <!-- Featured Items Section -->
+    <section class="featured-items text-center">
+      <div class="container">
+        <h2 class="featured my-1 py-2">We'd Love to Hear From You</h2>
+        <div class="row">
+          <div class="card col relative">
+            <img src="images/media-inqs.jpg" class="card-img-top" alt="display">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Media inquiries page">Media Inquiries</a>
+          </div>
+          <div class="card col relative">
+            <img src="images/distributor-inquiries.jpg" class="card-img-top" alt="display">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to distributor inquiries page">Distributor Inquiries</a>
+          </div>
+          <div class="card col relative">
+            <img src="images/find-us-sm.jpg" class="card-img-top" alt="...">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to social media pages">Find us on Social Media</a>
+          </div>
+          <div class="card col relative">
+            <img src="images/faq.jpg" class="card-img-top" alt="...">
+            <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to frequently asked questions page">Product Faq's</a>
+          </div>
+        </div>
+        <div class="shop-all-button mb-3 py-3">
+          <button class="text-center"> Shop All Products</button>
+        </div>  
+      </div>
+    </section>
+      
     <!-- Contact Form Section -->
     <section class="contact-form">
       <div class="container">
@@ -46,6 +138,7 @@
     <section class="store-locations">
       <div class="container">
         <h2>Store Locations</h2>
+        <img src="images/locations.jpg"
         <!-- Include store locations or addresses here -->
       </div>
     </section>
@@ -74,6 +167,9 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        <div>
+          <img src="images/penny-va.jpg" alt="picture of virtual assistant robot">
+        </div>
       </div>
     </section>
   

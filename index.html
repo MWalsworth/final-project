@@ -9,86 +9,100 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" />
 </head>
 <body>
   
-  <div class="row">
-    <div class="col">
-      Penny Juice
-    </div>
-    <div class="col">
-      It makes cents
-    </div>
-    <div class="col">
-      <header>
-        <section class="header-banner">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="products.html">Products</a>
-                  <a class="nav-link" href="contact-us.html">Contact Us</a>
+  <div class="header">
+    <div class="container row">
+      <div class="col PJ-name">
+        <h1>Penny Juice</h1>
+      </div>
+      <div class="col">
+        <h4>It makes cents</h4>
+      </div>
+      <div class="col">
+        <header>
+          <section class="header-banner">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link" href="products.html">Products</a>
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </nav>
-        </section>
-      </header>
+            </nav>
+          </section>
+        </header>
+      </div>
     </div>
   </div>
 
-  <section class="row">
-    <div class="col">
+  <section class="d-flex container justify-content-between align-items-center">
+    <div class="">
       <a href="index.html" aria-label="return to home page"><img class="logo" src="Images/Penny-Juice-Logo-.jpg" alt="a-penny"></a>
     </div>
-    <div class="col">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <div class="d-flex"> 
+      <div class="me-3">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="">
+        <div class="row header-icons-container">
+          <div class="col">
+            <span class="material-symbols-outlined">shopping_cart_checkout</span>
+          </div>
+          <div class="col divider">
+            <p class="mb-0">|</p>
+          </div>
+          <div class="col">
+            <span class="material-symbols-outlined">favorite</span>
+          </div>
+          <div class="col">
+              <span class="material-symbols-outlined">person</span>
+          </div>
         </div>
-      </nav>
-    </div>
-    <div class="col">
-      <span class="material-symbols-outlined">shopping_cart_checkout</span>
-        <p>|</p>
-        <span class="material-symbols-outlined">favorite</span>
-        <span class="material-symbols-outlined">person</span>
     </div>
   </section>
+  <div class="container">
+    <img src="images/platter-of-juices-withfruits.jpg" class="img-fluid">
+  </div>
 
-  <!-- Main Content Section -->
   <main>
     <!-- Featured Items Section -->
-    <section class="featured-items">
+    <section class="featured-items text-center">
       <div class="container">
-        <h2>Featured Items</h2>
+        <h2 class="featured my-1 py-2">Featured Items</h2>
         <div class="row">
-        <!-- Product Cards/Content Here -->
-          <div class="card col">
-            <img src="images/apple.jpg" class="card-img-top" alt="...">
+          <div class="card col-sm-6 col-lg-3 relative">
+            <img src="images/apple.jpg" class="card-img-top object-fit-cover h-100" alt="...">
             <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Apple</a>
           </div>
-          <div class="card col">
-            <img src="images/citrus-punch.jpg" class="card-img-top" alt="...">
+          <div class="card col-sm-6 col-lg-3 relative">
+            <img src="images/citrus-punch.jpg" class="card-img-top object-fit-cover h-100" alt="...">
             <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Citrus Punch</a>
           </div>
-          <div class="card col">
-            <img src="images/cran-apple.jpg" class="card-img-top" alt="...">
+          <div class="card col-sm-6 col-lg-3 relative">
+            <img src="images/cran-apple.jpg" class="card-img-top object-fit-cover h-100" alt="...">
             <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Cran Apple</a>
           </div>
-          <div class="card col">
-            <img src="images/fruit-punch.jpg" class="card-img-top" alt="...">
+          <div class="card col-sm-6 col-lg-3 relative">
+            <img src="images/fruit-punch.jpg" class="card-img-top object-fit-cover h-100" alt="...">
             <a href="#" class="position-absolute top-50 start-50 translate-middle btn btn-light" aria-label="link to Apple Juice product page">Fruit Punch</a>
           </div>
         </div>
-        <div>
-          <button>Shop All Products</button>
+        <div class="shop-all-button mb-3 py-3">
+          <button class="text-center"> Shop All Products</button>
         </div>  
       </div>
     </section>
@@ -109,111 +123,134 @@
 
     <!-- Not Just for Baby Section -->
     <section class="not-just-for-baby">
-      <div class="container">
-        <h2>Not Just for Baby</h2>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Live Chat Assistance</h5>
-          <p class="card-text">Penny is here to answer your questions 24/7</p>
-          <a href="contact-us.html" class="btn btn-light">Chat Now</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Parent Talk</h5>
-          <p class="card-text">Articles, blogs, and more...</p>
-          <a href="#" class="btn btn-light">Read More</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Advice, Forums and More</h5>
-          <p class="card-text">Access our safe space where parents come together to share judgement free the latest information...</p>
-          <a href="#" class="btn btn-light">Read More</a>
-        </div>
+      <div class="container my-5 py-5">
+        <div class="container p-0 gap-5 row">
+          <h2 class="text-center m">Not Just for Baby</h2>
+          <div class="card col">
+            <div class="card-body">
+              <h5 class="card-title text-center text-wrap">Live Chat Assistance</h5>
+              <img src="images/penny-va.jpg" class="card-img-top know-best-pic" alt="penny the virtual assistance image"> 
+              <p class="card-text">Penny is here to answer your questions 24/7</p>
+              <a href="contact-us.html" class="btn btn-light">Chat Now</a>
+            </div>
+          </div>
+          <div class="card col">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title text-center">Parent Talk</h5>
+                <img src="images/parent-talk.jpg" class="card-img-top know-best-pic" alt="display">
+                <p class="card-text text-center text-wrap">Articles, blogs, and more...</p>
+              </div>
+              <a href="#" class="btn btn-light">Read More</a>
+            </div>
+          </div>
+          <div class="card col">
+            <div class="card-body">
+              <h5 class="card-title text-center text-wrap">Advice, Forums and More</h5>
+              <img src="images/blogs-n-more.jpg" class="card-img-top know-best-pic" alt="display">
+              <p class="card-text">Access our safe space where parents come together to share judgement free the latest information...</p>
+              <a href="#" class="btn btn-light">Read More</a>
+            </div>
+          </div>
+        </div>  
       </div>
     </section>
 
     <!-- Quality Checks Section -->
-    <section class="know-best">
-      <div class="container">
-        <div class="card text-center mb-3" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">100+</h5>
-            <p class="card-text">Over 100 quality checks in every jar</p>
+    <section class="know-best container pb-5">
+      <div class="row">
+        <div class="col">
+          <div class="row gap-2">
+            <div class="col card text-center mb-3 py-5">
+              <div class="card-body">
+                <h3 class="card-title text-center">100+</h3>
+                <p class="card-text text-center">Over 100 quality checks in every jar</p>
+              </div>
+            </div>
+            <div class="col card text-center mb-3 py-5">
+              <div class="card-body">
+                <h3 class="card-title text-center">5</h3>
+                <p class="card-text">5 different stages of safety and quality checks from farm to cup</p>
+              </div>
+            </div>
+            <div class="col card text-center mb-3 py-5">
+              <div class="card-body">
+                <h3 class="card-title text-center">100%</h3>
+                <p class="card-text text-center">100% of our products meet all FDA requirements</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card text-center mb-3" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">5</h5>
-            <p class="card-text">5 different stages of safety and quality checks from farm to cup</p>
-          </div>
+
+        <div class="col mx-3">
+          <h2 class="my-5">We Know Best</h2>
+          <p class="pt-5">Brief description of how Penny Juice takes their jobs seriously...</p>
+          <button> Read more</button>
         </div>
-        <div class="card text-center mb-3" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">100%</h5>
-            <p class="card-text">100% of our products meet all FDA requirements</p>
-          </div>
-        </div>
-        <div>
-          <h2>We Know Best</h2>
-          <p>Brief description of how Penny Juice takes their jobs seriously...</p>
-          <button>Read more</button>
-        </div>
-      </div>
+
+      </div>    
     </section>
   </main>
 
   <!-- Footer Section -->
-  <footer>
+  <footer class="footer py-5">
     <div class="container">
       <div class="row">
         <div class="col">
-          <h2>About Us</h2>
+          <p>About Us</p>
           <ul>
             <li>Our Story</li>
             <li>Meet the Team</li>
-            <!-- Other About Us Links -->
           </ul>
         </div>
         <div class="col">
-          <a href="./pages/products.html">Product Page</a> <h2>Product Page</h2>
+          <p><a href="products.html">Product Page</a></p>
           <ul>
             <li>Product Descriptions</li>
             <li>Nutritional Info</li>
-            <!-- Other Product Page Links -->
           </ul>
         </div>
         <div class="col">
-          <h2>Parent Talk</h2>
+          <p>Parent Talk<p>
           <ul>
             <li>Recipe Corner</li>
             <li>Nutrition Related Articles</li>
-            <!-- Other Parent Talk Links -->
           </ul>
         </div>
         <div class="col">
-          <h2>Become a Juicer</h2>
+          <p>Become a Juicer</p>
           <ul>
             <li>User Account</li>
             <li>Benefits of Subscribing</li>
-            <!-- Other Become a Juicer Links -->
           </ul>
         </div>
         <div class="col">
-          <a href="./pages/contact-us.html">Contact Us</a> <h2>Contact Us</h2>
+          <p><a href="./pages/contact-us.html">Contact Us</a></p>
           <ul>
             <li>Store Locator</li>
             <li>Contact Privacy</li>
           </ul>
         </div>
-      </div>
-    </div>
+        <div class="d-flex col">
+          <div>
+            <img src="icons/X (Twitter)- White.png">
+          </div>
+          <div>
+            <img src="icons/Instagram-White.png">
+          </div>
+          <div>
+            <img src="icons/LinkedIn-White.png">
+          </div>
+          <div>
+            <img src="icons/Facebook-White.png">
+          </div>
+          <div>
+            <img src="icons/pinterest-White.png">
+          </div>
+        </div>
+      </div>  
   </footer>
+
 
   <!-- Bootstrap JS and other scripts -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
