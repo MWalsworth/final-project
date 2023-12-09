@@ -11878,7 +11878,7 @@ textarea.form-control-lg {
 }
 
 .featured-items {
-  background-color: #C49A6C;
+  background-color: aqua;
 }
 
 .featured-items .row {
@@ -11975,8 +11975,13 @@ textarea.form-control-lg {
 
 .nutrionist-pic {
   border-radius: 16px;
-  height: 175px;
-  object-position: top;
+  height: 100px;
+  object-position: right;
+}
+
+.blended {
+  max-width: 1500px;
+  max-height: 1500px;
 }
 
 @media screen and (max-width: 576px) {

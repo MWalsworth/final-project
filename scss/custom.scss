@@ -6,7 +6,6 @@ $primary: #C49A6C;
 $headings-font-family: 'Lilita One', sans-serif;
 $font-family-base: 'Merriweather', serif;
 
-// Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -31,7 +30,7 @@ $font-family-base: 'Merriweather', serif;
 }
 
 .featured-items {
-  background-color: $primary;
+  background-color: aqua;
 }
 .featured-items .row {
   gap: 20px;
@@ -118,9 +117,13 @@ $font-family-base: 'Merriweather', serif;
 }
 .nutrionist-pic {
   border-radius: 16px;
-  height: 175px;
-  object-position: top;
+  height: 100px;
+  object-position: right;
 
+}
+.blended {
+  max-width: 1500px;
+  max-height: 1500px; 
 }
 
 @media screen and (max-width: 576px) {
@@ -195,7 +198,6 @@ $font-family-base: 'Merriweather', serif;
   margin: 5px;
 }
 }
-
 
 @media screen and (min-width: 992px) {
   
