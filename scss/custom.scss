@@ -12,9 +12,12 @@ $font-family-base: 'Merriweather', serif;
 // Then add additional custom code here*
 .logo {
   max-width: 250px;
-  max-height: 150px; 
+  max-height: 150px;
+  border-radius: 100px; 
 }
-
+body {
+  background-image: url(/images/Backgroundimage.jpg);
+}
 .featured-items .btn-light {
   border-radius: 33px;
   padding: 1px 10px;
@@ -30,7 +33,7 @@ $font-family-base: 'Merriweather', serif;
 }
 
 .featured-items {
-  background-color: aqua;
+  background-color: purple;
 }
 .featured-items .row {
   gap: 20px;
@@ -70,9 +73,41 @@ $font-family-base: 'Merriweather', serif;
 }
 
 .not-just-for-baby {
-  // background-image: url(../images/cheers-with-juice.jpg);
-  background-color: #C49A6C;
+  background-image: url(../images/cheers-with-juice.jpg);
 }
+
+.hear-from .container {
+  background-color: $primary; 
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.hear-from .btn-light {
+  border-radius: 33px;
+  padding: 1px 10px;
+  width: calc(100% - 60px);
+} 
+
+.hear-from .btn {
+  width: 100%;
+}
+
+.hear-from .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns for larger screens */
+  grid-gap: 20px;
+}
+
+.hear-from .card {
+  width: calc(100% - 20px); /* Adjust width to accommodate the gap */
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.hear-from .btn {
+  width: 100%;
+}
+
+
 .footer {
   background-color: $primary;
 }
@@ -115,24 +150,56 @@ $font-family-base: 'Merriweather', serif;
 .products + .products {
   margin-top: 20px;
 }
-.nutrionist-pic {
-  border-radius: 16px;
-  height: 100px;
-  object-position: right;
 
+/*
+special-card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.blended {
-  max-width: 1500px;
-  max-height: 1500px; 
+
+.special-card-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
+*/
+
+.contact-form button[type="submit"] {
+  text-align: left;
+}
+
+.store-hours {
+  padding: 40px 0;
+  border-radius: 33px;
+}
+
+.store-hours .store-hours-text h3 {
+  margin-top: 0;
+}
+
+
+
 
 @media screen and (max-width: 576px) {
 
 .PJ-name h1,
 .PJ-name h4 {
-  display: inline-block; /* Keep elements on the same line */
+  display: inline-block;
 }
 
+.logo {
+  max-width: 150px; /* Further reduce the logo's size */
+}
+
+.navbar {
+  margin-bottom: 5px; /* Additional reduction in margin for the search bar */
+}
+
+/* Further reduce space between icons */
+.header-icons-container .col {
+  margin-right: 3px; /* Adjust the right margin */
+}
 
 .header-banner {
   text-align: center;
@@ -198,7 +265,71 @@ $font-family-base: 'Merriweather', serif;
   margin: 5px;
 }
 }
+/* For larger screens like desktops */
+@media (min-width: 992px) {
+  .hear-from .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px; /* Reduce the gap between images */
+  }
 
-@media screen and (min-width: 992px) {
-  
+  .hear-from .card {
+    width: calc(25% - 20px);
+    margin: 0;
+    padding: 0;
+    flex-basis: 200px; /* Adjust the width as needed */
+  }
+
+  .hear-from .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .hear-from .card .btn {
+    width: 100%;
+  }
 }
+
+/* For smaller screens */
+@media (max-width: 767.98px) {
+  .hear-from .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hear-from .card {
+    width: calc(50% - 20px);
+    margin: 0;
+    padding: 0;
+    flex-basis: calc(50% - 20px);
+  }
+
+  .hear-from .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .hear-from .card .btn {
+    width: 100%;
+  }
+
+    .logo {
+      max-width: 80px; /* Adjust the logo's size */
+    }
+  
+    .header-icons-container {
+      display: flex; /* Ensure flex layout */
+      justify-content: center; /* Center the icons */
+      align-items: center; /* Align items in the center */
+    }
+  
+    .header-icons-container .col:not(:last-child) {
+      margin-right: 5px; /* Adjust the space between icons */
+    }
+  }
+  
